@@ -2,10 +2,13 @@ engines:
   structure:
     enabled: true
     channel: java
+    config:
+      debug: true
   duplication:
-    enabled: true
+    enabled: false
     channel: java
     config:
+      debug: true
       languages:
         - java
 ratings:
