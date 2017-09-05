@@ -1,12 +1,9 @@
 engines:
   structure:
     enabled: true
-    channel: java
-    config:
-      debug: true
   duplication:
     enabled: false
-    channel: java
+    channel: cronopio
     config:
       debug: true
       languages:
