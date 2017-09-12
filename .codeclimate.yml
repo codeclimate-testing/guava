@@ -1,4 +1,7 @@
 engines:
+  pmd:
+    enabled: true
+    channel: beta
   structure:
     enabled: true
   duplication:
