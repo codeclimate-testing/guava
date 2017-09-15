@@ -2,15 +2,6 @@ engines:
   pmd:
     enabled: true
     channel: beta
-  structure:
-    enabled: true
-  duplication:
-    enabled: false
-    channel: cronopio
-    config:
-      debug: true
-      languages:
-        - java
 ratings:
   paths:
     - "**.java"
