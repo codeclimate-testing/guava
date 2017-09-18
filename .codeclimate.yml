@@ -1,12 +1,13 @@
+---
 engines:
   pmd:
     enabled: true
     channel: beta
 ratings:
   paths:
-    - "**.java"
+  - "**.java"
 exclude_paths:
-  - "**.js"
-  - "**.jsx"
-  - "**.rb"
-  - "**.py"
+- "**.js"
+- "**.jsx"
+- "**.rb"
+- "**.py"
