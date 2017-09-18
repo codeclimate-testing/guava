@@ -1,6 +1,6 @@
 ---
 engines:
-  pmd:
+  checkstyle:
     enabled: true
     channel: beta
 ratings:
