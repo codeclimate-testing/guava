@@ -1,18 +1,14 @@
+---
 engines:
-  structure:
+  pmd:
     enabled: true
-  duplication:
-    enabled: false
-    channel: cronopio
     config:
-      debug: true
-      languages:
-        - java
+      file: rules.xml
 ratings:
   paths:
-    - "**.java"
+  - "**.java"
 exclude_paths:
-  - "**.js"
-  - "**.jsx"
-  - "**.rb"
-  - "**.py"
+- "**.js"
+- "**.jsx"
+- "**.rb"
+- "**.py"
