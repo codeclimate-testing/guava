@@ -3,6 +3,8 @@ engines:
   checkstyle:
     enabled: true
     channel: beta
+    include_paths:
+      - "guava-testlib/"
     config:
       file: checkstyle.xml
 ratings:
@@ -13,3 +15,7 @@ exclude_paths:
 - "**.jsx"
 - "**.rb"
 - "**.py"
+- "android/"
+- "guava/"
+- "guava-gwt/"
+- "guava-tests/"
