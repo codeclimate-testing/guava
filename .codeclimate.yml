@@ -3,6 +3,8 @@ engines:
   pmd:
     enabled: true
     channel: beta
+    config:
+      file: rules.xml
 ratings:
   paths:
   - "**.java"
