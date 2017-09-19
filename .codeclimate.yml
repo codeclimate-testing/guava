@@ -1,18 +1,21 @@
+---
 engines:
-  structure:
+  checkstyle:
     enabled: true
-  duplication:
-    enabled: false
-    channel: cronopio
+    channel: beta
+    include_paths:
+      - "guava-testlib/"
     config:
-      debug: true
-      languages:
-        - java
+      file: checkstyle.xml
 ratings:
   paths:
-    - "**.java"
+  - "**.java"
 exclude_paths:
-  - "**.js"
-  - "**.jsx"
-  - "**.rb"
-  - "**.py"
+- "**.js"
+- "**.jsx"
+- "**.rb"
+- "**.py"
+- "android/"
+- "guava/"
+- "guava-gwt/"
+- "guava-tests/"
