@@ -1,13 +1,16 @@
 engines:
-  structure:
-    enabled: true
   duplication:
     enabled: false
-    channel: cronopio
+  structure:
+    enabled: false
+  sonar-java:
+    enabled: true
+    channel: beta
     config:
-      debug: true
       languages:
         - java
+      tests_patterns:
+        - "**/test/**"
 ratings:
   paths:
     - "**.java"
