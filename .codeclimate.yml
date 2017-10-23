@@ -1,16 +1,10 @@
 engines:
-  duplication:
-    enabled: false
   structure:
-    enabled: false
+    enabled: true
+  duplication:
+    enabled: true
   sonar-java:
     enabled: true
-    channel: beta
-    config:
-      languages:
-        - java
-      tests_patterns:
-        - "**/test/**"
 ratings:
   paths:
     - "**.java"
