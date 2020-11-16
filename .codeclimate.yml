@@ -1,13 +1,15 @@
 engines:
   structure:
     enabled: true
+    channel: java
   duplication:
-    enabled: false
-    channel: cronopio
+    enabled: true
+    channel: java
     config:
-      debug: true
       languages:
         - java
+  codenarc:
+    enabled: true
 ratings:
   paths:
     - "**.java"
